@@ -10,6 +10,15 @@
 # then write them out to the screen. Show the total
 # as well.
 
+roll1 = rand(1..6)
+roll2 = rand (1..6)
+total = roll1 + roll2
+
+puts " Roll 1 = #{roll1}"
+puts " Roll 2 = #{roll2}"
+puts "Total = #{total} !"
+
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
